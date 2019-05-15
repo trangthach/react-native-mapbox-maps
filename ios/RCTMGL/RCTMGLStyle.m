@@ -1470,7 +1470,7 @@
     layer.rasterResamplingMode = styleValue.mglStyleValue;
 }
 
-#error "An error"
+//#error "An error"
 
 - (void)setRasterFadeDuration:(MGLRasterStyleLayer *)layer withReactStyleValue:(RCTMGLStyleValue *)styleValue
 {
