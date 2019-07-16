@@ -1,6 +1,6 @@
 package com.mapbox.rctmgl.components.camera;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.mapbox.mapboxsdk.camera.CameraUpdate;
 import com.mapbox.mapboxsdk.constants.MapboxConstants;
@@ -8,11 +8,7 @@ import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.rctmgl.components.camera.constants.CameraMode;
 
 import java.lang.ref.WeakReference;
-import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Future;
-import java.util.concurrent.FutureTask;
 import java.util.concurrent.RunnableFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;

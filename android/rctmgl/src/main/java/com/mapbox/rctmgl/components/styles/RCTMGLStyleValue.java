@@ -1,16 +1,14 @@
 package com.mapbox.rctmgl.components.styles;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.facebook.react.bridge.Dynamic;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableType;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.google.gson.JsonArray;
 import com.mapbox.mapboxsdk.style.expressions.Expression;
 import com.mapbox.mapboxsdk.style.layers.TransitionOptions;
-import com.mapbox.rctmgl.utils.ConvertUtils;
 import com.mapbox.rctmgl.utils.ExpressionParser;
 
 /**
